@@ -1,0 +1,22 @@
+.main-nav {
+    background-color: #444;
+}
+
+.main-nav a {
+padding:12px 20px;
+}
+
+.main-nav a:hover {
+    background-color:white
+    color: red;
+
+}
+.main-nav a:active {
+    background-color: #918e8e;
+    color: #a5daee;
+}
+
+.hero {
+
+
+}
