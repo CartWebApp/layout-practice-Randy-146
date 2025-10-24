@@ -1,22 +1,142 @@
+* {
+box-sizing:border-box;
+display:flex;
+flex-direction:column;
+}
+
+.hero1 {
+    width: 100%;
+    height: auto;
+    display: block;
+    size:contain
+}
 .main-nav {
-    background-color: #444;
+    background-color: #3b404d;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .main-nav a {
 padding:12px 20px;
+color: white;
+text-decoration: none;
+
 }
 
 .main-nav a:hover {
-    background-color:white
-    color: red;
-
+    background-color: rgb(99, 101, 107);
+    transition: 0.3s;
 }
+
 .main-nav a:active {
-    background-color: #918e8e;
-    color: #a5daee;
+    background-color:  rgb(99, 101, 107);
+    color: #ffffff;
 }
 
 .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 
+.threeC {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
 
+.columntres {
+ flex-basis: 30%;
+}
+
+#C-1,#C-2,#C-3{
+    background-color: #ccc6c6;
+    width: 43%;
+    height: auto;
+}
+
+a#green{
+    background-color: #00dd00;
+    width: 15%;
+    border-radius: 10px;
+    color:white;
+    text-decoration: none;
+}
+
+a#blue{
+    border-radius: 10px;
+    background-color: #2be7e7;
+    width: 15%;
+    color:white;
+    text-decoration: none;
+}
+
+a#red{
+    border-radius: 10px;
+    background-color: #dd0000;
+    width: 15%;
+    color:white;
+    text-decoration: none;
+}
+
+#lbig{
+    background-color: #ccc6c6;
+    width: 50%;
+    height: auto;
+}
+
+#rbig{
+    background-color: #ccc6c6;
+    width:50%;
+    height: auto;
+}
+
+.link {
+    background-color: #ffffff;
+    width: 15%;
+    border-radius: 10px;
+    color: grey;
+    text-decoration: none;
+}
+
+.onecolumn{
+     background-color: #ccc6c6;
+    width: 20%;
+    height: auto;
+}
+
+.twocolumn{
+     background-color: #ccc6c6;
+    width: 20%;
+    height: auto;
+}
+
+.threecolumn{
+     background-color: #ccc6c6;
+    width: 20%;
+    height: auto;
+}
+
+.fourcolumn{
+     background-color: #ccc6c6;
+    width: 20%;
+    height: auto;
+}
+
+.big{
+     background-color: #ccc6c6;
+    width: 80%;
+    height: auto;
+}
+
+.contact {
+    color:transparen;
+}
+
+.top {
+    
 }

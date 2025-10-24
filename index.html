@@ -2,7 +2,6 @@
     <html lang="en">
         <head>
             <meta charset="UTF-8">
-            <title>practice layout</title>
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="styles.css">
         </head>
@@ -10,7 +9,7 @@
             <header>
                 <nav class="main-nav">
 
-                    <a href="#" class="link">Homepage</a>
+                    <a href="#" class="page">Homepage</a>
 
                     <a href="#" class="page">About Us</a>
 
@@ -27,32 +26,34 @@
 <p>Branding Statement Here</p>
 </section>
 
-<section class="3-column">
-<img src="layout-01-assets/img1.jpg" alt="midnight forest">
+<section class="threeC">
 <section id="C-1">
+<img src="layout-01-assets/img1.jpg" alt="midnight forest" class="columntres">
 <h3>Headline</h3>
 <p>Morbi saggitis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Present quis velit neque. Quisque semper porta nisi vitae suscipit</p>
-<a href="#" class="Fakeout">Button Green</a>
+<a href="#" id="green">Button Green</a>
+</section>
 </section>
 
-<img src="layout-01-assets/img2.jpg" alt="Night Bridge">
-<h3>Headline</h3>
 <section id="C-2">
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, ducimus, error maxime porro neque reprehenderit cumque, magni vel nulla alias perferendis beatae vero illo voluptatibus aliquid asperiores. Labore, modi totam?</p>
-<a href="#" class="Fakeout">See Details</a>
-</section>
-
-<img src="layout-01-assets/img3.jpg" alt="Train Tracks">
+<img src="layout-01-assets/img2.jpg" alt="Night Bridge" class="columntres">
 <h3>Headline</h3>
-<section id="C-3">
-<p>Morbi saggitis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Present quis velit neque. Quisque semper porta nisi vitae suscipit</p>
-<a href="#" class="Fakeout">Button Red</a>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, ducimus, error maxime porro neque reprehenderit cumque, magni vel nulla alias perferendis beatae vero illo voluptatibus aliquid asperiores. Labore, modi totam?</p>
+<a href="#" id=blue>See Details</a>
 </section>
 </section>
 
-<section class="2-column">
+<section id="C-3">
+<img src="layout-01-assets/img3.jpg" alt="Train Tracks" class="columntres">
+<h3>Headline</h3>
+<p>Morbi saggitis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Present quis velit neque. Quisque semper porta nisi vitae suscipit</p>
+<a href="#" id="red">Button Red</a>
+</section>
+</section>
+</section>
+
 <img src="layout-01-assets/img4.jpg" alt="smoking bottle">
-<section id="Column-left"></section>
+<section id="lbig">
 <h3>Two Column Left Side</h3>
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum error voluptas est suscipit dicta vitae quidem dolore impedit ducimus deserunt reiciendis nihil explicabo alias ex provident nam, necessitatibus in esse.</p>
 <br>
@@ -60,13 +61,12 @@
 </section>
 
 <img src="layout-01-assets/img5.jpg" alt="Sunset Ocean">
-<section id="Column-right">
-<h3>Two Column Right Side</h3>
+<section id="rbig">
+<h3 id="rbig">Two Column Right Side</h3>
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum error voluptas est suscipit dicta vitae quidem dolore impedit ducimus deserunt reiciendis nihil explicabo alias ex provident nam, necessitatibus in esse.</p>
 <br>
 <p>Vestibulum vel mauris at erat mattic accumsan et ac lorum. Cras non venenatis orci, sed tincidunt massa. Duis nicl lectus auctor eu sodales at dignissim eu orci. Sed vitae venanatis magna, in blandit metus</p>
 <a href="#" class="link">Read More</a>
-</section>
 </section>
 
 <section class="hero">
@@ -75,60 +75,51 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis veniam repellendus, accusamus saepe nesciunt, fuga architecto cumque non dolor eveniet quas distinctio ipsa sint molestiae ad culpa ut fugit inventore?</p>
     </section>
 
-    <section class="4-column">
     <img src="layout-01-assets/img6.jpg" alt="Forest Lake">
-    <section id="4-column-1">
+    <section class="onecolumn">
     <h3>Column 1</h3>
     <p>Morbi saggitis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Present quis velit neque. Quisque semper porta nisi vitae suscipit</p>
-    </section>
-
-    <img src="layout-01-assets/img7.jpg" alt="Frost Mountains">
-<h3>Column 2</h3>
-<section id="4-column-2">
-    <p>Morbi saggitis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Present quis velit neque. Quisque semper porta nisi vitae suscipit</p>
-    <a href="#" class="readmore">Read It</a>
 </section>
 
+    <img src="layout-01-assets/img7.jpg" alt="Frost Mountains">
+    <section class="twocolumn">
+<h3>Column 2</h3>
+<p>Morbi saggitis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Present quis velit neque. Quisque semper porta nisi vitae suscipit</p>
+<a href="#" class="readmore">Read It</a>
+</section>
 <img src="layout-01-assets/img8.jpg" alt="Ocean Shot">
-<section id="4-column-3">
-    <h3>Column 3</h3>
-    <p>Morbi saggitis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Present quis velit neque. Quisque semper porta nisi vitae suscipit</p>
+<section class="threecolumn">
+<h3>Column 3</h3>
+<p>Morbi saggitis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Present quis velit neque. Quisque semper porta nisi vitae suscipit</p>
 </section>
 
 <img src="layout-01-assets/img9.jpg" alt="Autumn Leaves">
-<section id="4-column-4">
+<section class="fourcolumn">
 <h3>Column 4</h3>
 <p>Morbi saggitis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Present quis velit neque. Quisque semper porta nisi vitae suscipit</p>
 <a href="#" class="readmore">Details</a>
 </section>
-</section>
 
-<section class="big-column">
 <img src="layout-01-assets/img10.jpg" alt="Lifeguard">
+<section class="big">
 <h3>One Big Column</h3>
 <p>Morbi saggitis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Present quis velit neque. Quisque semper porta nisi vitae suscipit</p>
 <a href="#" class="bigcolumn">Details</a>
 </section>
 
-<section class="hero">
     <img src="layout-01-assets/img14.jpg" alt="mountain sunset shot">
     <h2>Contact Form</h2>
+    <section class="contact">
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti officiis voluptates doloribus dignissimos quod quaerat, soluta similique excepturi harum vitae mollitia eaque accusantium repellat quasi atque at ullam assumenda provident?</p>
-    <label class="input">Name</label>
-    <input type="text" class="input">
-    <label class="input">Email</label>
-    <input type="email" class="input">
-    <label class="input">Subject</label>
-    <input type="text" class="input">
-    <label class="input">Your Message here...</label>
-    <textarea class="input"></textarea>
-    </section>
+    <label for="contact-name">Name</label>
+      <input id="contact-name" name="name" type="text" required placeholder="Your name">
+
 
 <footer class="footer">
     <h2>Footer</h2>
     <p>Footer Info</p>
 </footer>
 <p>Copyright &#169; 2084 Your Company Name</p>
-<img src="layout-01-assets/img0.png" alt="footer image">
+<img src="layout-01-assets/img0.png" alt="footer image" class="top">
         </body>
     </html>
