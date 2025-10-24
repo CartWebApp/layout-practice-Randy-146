@@ -134,9 +134,13 @@ a#red{
 }
 
 .contact {
+    border-radius:10px;
     color:transparen;
 }
 
 .top {
-    
+    display:flex;
+    justify-content:flex-end;
+height:5%;
+width:5%
 }
