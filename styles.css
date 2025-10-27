@@ -84,7 +84,7 @@ color: #197beb;
     width: 100%;
 }
 
-#C-1, #C-2, #C-3 {
+.card {
     background-color: #fdf8f8;
     width: 30%;
     min-height: 500px;
@@ -335,14 +335,15 @@ border-radius: 4px;
 
 .footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    align-items:center;
     padding: 20px;
 }
 
 .footer-text {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
 }
 
 .top {
@@ -351,4 +352,6 @@ border-radius: 4px;
     width: auto;
     object-fit: contain;
     margin-top: 125px;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
