@@ -29,7 +29,7 @@
 <section class="threeC">
 <section id="C-1">
 <img src="layout-01-assets/img1.jpg" alt="midnight forest" class="columntres">
-<h3>Headline</h3>
+<h3 class="C1">Headline</h3>
 <p>Morbi saggitis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Present quis velit neque. Quisque semper porta nisi vitae suscipit</p>
 <a href="#" id="green">Button Green</a>
 </section>
@@ -37,7 +37,7 @@
 
 <section id="C-2">
 <img src="layout-01-assets/img2.jpg" alt="Night Bridge" class="columntres">
-<h3>Headline</h3>
+<h3 class="C2">Headline</h3>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, ducimus, error maxime porro neque reprehenderit cumque, magni vel nulla alias perferendis beatae vero illo voluptatibus aliquid asperiores. Labore, modi totam?</p>
 <a href="#" id=blue>See Details</a>
 </section>
@@ -45,7 +45,7 @@
 
 <section id="C-3">
 <img src="layout-01-assets/img3.jpg" alt="Train Tracks" class="columntres">
-<h3>Headline</h3>
+<h3 class="C-3">Headline</h3>
 <p>Morbi saggitis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Present quis velit neque. Quisque semper porta nisi vitae suscipit</p>
 <a href="#" id="red">Button Red</a>
 </section>
@@ -111,19 +111,37 @@
     <h2>Contact Form</h2>
     <section class="contact">
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti officiis voluptates doloribus dignissimos quod quaerat, soluta similique excepturi harum vitae mollitia eaque accusantium repellat quasi atque at ullam assumenda provident?</p>
-      <input id="contact-name" name="Name" type="text" required placeholder="Name">
-      <br>
-      <input id="contact-email" name="Email" type="text" required placeholder="Email">
-      <br>
- <input id="contact-subject" name="Subject" type="text" required placeholder="Subject">
-      <br>
-       <input id="contact-message" name="Message" type="text" required placeholder="Your Message Here">
+    
+    <form class="contact-form">
+        <section class="form-group">
+            <input type="text" id="name" name="name" placeholder="Name" required>
+        </section>
+
+        <section class="form-group">
+            <input type="email" id="email" name="email" placeholder="Email" required>
+        </section>
+
+        <section class="form-group">
+            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+        </section>
+</form>
+
+
+<form class="contact-form-alt">
+<section class="form-altgroup">
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message Here..." required></textarea>
+        </section>
+
+        <button class="submit-button" type="submit">Send</button>
+    </form>
+    </section>
 
 <footer class="footer">
     <h2>Footer</h2>
     <p>Footer Info</p>
-    <p>Copyright &#169; 2084 Your Company Name</p>
-<img src="layout-01-assets/img0.png" alt="footer image" class="top">
 </footer>
+<p>Copyright &#169; 2084 Your Company Name</p>
+<img src="layout-01-assets/img0.png" alt="footer image">
         </body>
     </html>
